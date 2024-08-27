@@ -35,7 +35,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/First-Docker-Deploy:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/first-docker-deploy:latest
           file: ./Dockerfile
 
   
